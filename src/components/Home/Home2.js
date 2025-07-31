@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+// import myImg from "../../Assets/avatar.svg";
+// import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -24,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Java, Javascript and C++. </b>
               </i>
               <br />
               <br />
@@ -33,7 +32,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  AI
                 </b>
               </i>
               <br />
@@ -52,11 +51,11 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          {/* <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
+          </Col> */}
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
@@ -67,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/sameeksha-mp19"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -76,18 +75,18 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
+                {/* <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
-                </a>
+                </a> */}
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/sameeksha-mp"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -96,14 +95,14 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
+                {/* <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
-                </a>
+                </a> */}
               </li>
             </ul>
           </Col>
