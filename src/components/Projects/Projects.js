@@ -77,7 +77,7 @@ Tools Used: React, NodeJS, PostgreSQL"
               isBlog={false}
               title="Mental Health Support"
               description="A platform to provide mental health support which has features like AI chatbot assistant, browse mental health education resources, and partcipate in daily challenges to maintain streak."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/sameeksha-mp19/mental-health-support.git"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
